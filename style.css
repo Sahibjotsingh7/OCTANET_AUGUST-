@@ -1,0 +1,145 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: rgb(100, 100, 100);
+}
+
+header {
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(161, 0, 0);
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  padding: 20px 0px;
+  gap: 10px;
+}
+
+header a {
+  margin-left: 20px;
+  color: aliceblue;
+}
+
+main {
+  background-color: rgb(100, 100, 100);
+  display: flex;
+  color: aliceblue;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px 0px;
+}
+
+article div {
+  display: flex;
+  gap: 20px;
+  align-items: baseline;
+}
+
+article h1 {
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+article p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+article h2 {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+article button {
+  border: none;
+  padding: 10px 20px;
+  background-color: antiquewhite;
+  margin-top: 20px;
+}
+
+.images {
+  display: flex;
+  overflow: scroll;
+  gap: 10px;
+  margin: 0 40px;
+}
+.images img {
+  height: 300px;
+  width: 300px;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: rgb(32, 31, 31);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+footer img {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+}
+
+.icons {
+  font-size: 30px;
+}
+
+.icons i {
+  margin-left: 20px;
+}
+
+.links a {
+  color: aliceblue;
+  font-size: 20px;
+  margin: 10px;
+}
+
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+@media (max-width: 768px) {
+  header {
+    display: block;
+    text-align: center;
+  }
+
+  main {
+    padding: 10px;
+    display: block;
+  }
+
+  article {
+    display: block;
+    margin: 20px;
+  }
+
+  .images {
+    text-align: center;
+  }
+
+  iframe {
+    text-align: center;
+    margin-top: 20px;
+    height: 200px;
+    width: 350px;
+  }
+
+  footer {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+  }
+
+  .icons,
+  .links a {
+    font-size: 15px;
+  }
+}
